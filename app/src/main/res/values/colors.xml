@@ -9,5 +9,6 @@
     <color name="statusbarcolor">#CECECE</color>
     <color name="white">#ffff</color>
     <color name="textcolor">#464646</color>
+    <color name="greylight">#dbd6c8</color>
 
 </resources>
