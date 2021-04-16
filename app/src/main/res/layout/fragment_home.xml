@@ -46,12 +46,14 @@
             app:srcCompat="@drawable/ic_tv_screen" />
 
         <ImageView
+            android:id="@+id/gotochat"
             android:layout_width="40dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:onClick="goToChat"
             android:padding="5dp"
             app:srcCompat="@drawable/ic_send"
             app:tint="@color/textcolor" />

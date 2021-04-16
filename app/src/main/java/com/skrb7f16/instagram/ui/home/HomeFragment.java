@@ -1,9 +1,11 @@
 package com.skrb7f16.instagram.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -12,6 +14,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.skrb7f16.instagram.ChatActivity;
+import com.skrb7f16.instagram.MainActivity;
 import com.skrb7f16.instagram.R;
 
 public class HomeFragment extends Fragment {
@@ -26,4 +30,6 @@ public class HomeFragment extends Fragment {
 
         return root;
     }
+
+
 }

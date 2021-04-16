@@ -1,7 +1,10 @@
 package com.skrb7f16.instagram;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.skrb7f16.instagram.ui.add.AddFragment;
 import com.skrb7f16.instagram.ui.home.HomeFragment;
@@ -63,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-    }
 
+    }
+    public void goToChat(View view){
+        Intent intent=new Intent(MainActivity.this, ChatActivity.class);
+        startActivity(intent);
+    }
 }
